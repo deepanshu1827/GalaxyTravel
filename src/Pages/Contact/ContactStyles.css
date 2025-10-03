@@ -1,0 +1,44 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+
+form .field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    background-color: #080808;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+form .form-button button{
+    background-color: #080808;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 16px;
+}
